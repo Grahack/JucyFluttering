@@ -72,7 +72,7 @@ Some manual configuration for the Projucers Android exporter was necessary:
   ```
 
 Projucer can't create / manipulate a `gradle.properties` file, but this is needed for Flutter
- - The file with the following content was manually placed at `Builds/Android` folder of this repository, it won't get overwritten by the Projucre, just do not delete it manually:
+ - The file with the following content was manually placed at `Builds/Android` folder of this repository, it won't get overwritten by the Projucer, just do not delete it manually:
 
     ```
     android.useAndroidX=true
